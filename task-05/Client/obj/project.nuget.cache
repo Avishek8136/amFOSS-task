@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "zd9FO4L5i5pTwvs4aFuzmL+ZO2lkfUFrDu8USlr4j2b1c2K4g65E+WgU26NDC/7BRO3G6hu3TTmMURlvUDIFtg==",
+  "success": true,
+  "projectFilePath": "/home/avishek/Desktop/Amfoss_tasks/task-05/Client/Client.csproj",
+  "expectedPackageFiles": [
+    "/home/avishek/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/home/avishek/.nuget/packages/microsoft.netcore.app.ref/6.0.16/microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "/home/avishek/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.16/microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",
+    "/home/avishek/.nuget/packages/microsoft.netcore.app.host.linux-x64/6.0.16/microsoft.netcore.app.host.linux-x64.6.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}

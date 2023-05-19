@@ -1,0 +1,5 @@
+/home/avishek/Desktop/Amfoss_tasks/task-05/Client/obj/Debug/net6.0/Client.csproj.AssemblyReference.cache
+/home/avishek/Desktop/Amfoss_tasks/task-05/Client/obj/Debug/net6.0/Client.GeneratedMSBuildEditorConfig.editorconfig
+/home/avishek/Desktop/Amfoss_tasks/task-05/Client/obj/Debug/net6.0/Client.AssemblyInfoInputs.cache
+/home/avishek/Desktop/Amfoss_tasks/task-05/Client/obj/Debug/net6.0/Client.AssemblyInfo.cs
+/home/avishek/Desktop/Amfoss_tasks/task-05/Client/obj/Debug/net6.0/Client.csproj.CoreCompileInputs.cache
