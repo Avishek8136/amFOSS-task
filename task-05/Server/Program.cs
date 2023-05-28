@@ -24,7 +24,7 @@ public class SynchronousSocketListener
         IPEndPoint localEndPoint = new IPEndPoint(ipAddress, 11000);
 
         // Check whether TCP Socket is created correctly
-        Socket listener = new Socket(ipAddress.AddressFamily);
+        Socket listener = new Socket(ipAddress.AddressFamily,SocketType.Stream, ProtocolType.Tcp); //TCP socket is not created correctly and some parameters are missing
 
         // Bind the socket to the local endpoint and
         // listen for incoming connections.  
@@ -55,7 +55,7 @@ public class SynchronousSocketListener
                 Console.WriteLine("Name: {0}", name);
                 Console.WriteLine("Intrests: {0}", intrests);
                 Console.WriteLine("Email: {0}", mail);
-                if (/*Add condition based on the code*/)
+                if (File.Exists(fileName)/*Add condition based on the code*/)
                 {
                     using (StreamWriter sw = File.AppendText(fileName))
                     {

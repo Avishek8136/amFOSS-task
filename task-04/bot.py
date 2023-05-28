@@ -5,8 +5,8 @@ import json
 import csv
 
 # TODO: 1.1 Get your environment variables
-from dotenv import load_dotenv   #for python-dotenv method
-load_dotenv()                    #for python-dotenv method
+from dotenv import load_dotenv   
+load_dotenv()                    
 
 bot_id = os.environ.get('bot_id')
 api_key = os.environ.get('api_key')

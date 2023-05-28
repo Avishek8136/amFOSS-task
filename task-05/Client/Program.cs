@@ -23,7 +23,7 @@ public class SynchronousSocketClient
             IPEndPoint remoteEP = new IPEndPoint(ipAddress, 8080);
 
             // Check whether TCP Socket is created correctly
-            Socket sender = new Socket(ipAddress.AddressFamily);
+            Socket sender = new Socket(ipAddress.AddressFamily,SocketType.Stream, ProtocolType.Tcp); //TCP socket is not created correctly and some parameters are missing
 
             // Connect the socket to the remote endpoint. Catch any errors.  
             try
